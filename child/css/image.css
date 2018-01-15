@@ -1,0 +1,23 @@
+/*動画の選択CSS*/
+ul.movie_list li {
+  /* liが横並びになるようにします。 */
+  display: inline-block;
+}
+ img.mvesize.clicked{
+  border-image: url(../img/colors/blue.png) 10;
+  border-style:solid;
+  border-width:15px; 
+}
+ul.photo_list li {
+  /* liが横並びになるようにします。 */
+  display: inline-block;
+}
+
+/*画像の選択CSS*/
+img.imgsize.clicked {
+  /* チェックが入った状態だと、枠が表示されるようにします。 */
+  border-image: url(../img/colors/blue.png) 10;
+  border-style:solid;
+  border-width:15px; 
+}
+

@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+body {
+	margin:20px;
+
+}
+
+p{
+	font-weight:bold;
+}
+font {
+    font-family: 'azuki';
+}
+
+.tag{
+	font-family: 'azuki';
+}
+
+#wrapper{
+    padding-top: 50px;
+    padding-bottom:0px;
+    margin:0px auto;
+    width: 1000px;
+	border-radius:20px;
+	background-color: #ffffff;
+	overflow:auto;
+}
+
+.center {
+  /*position: absolute;*/
+  top: 20px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: 0 auto;
+  height: 50%;
+  max-width: 50%;
+  text-align: center;
+
+}
+
+.center2 {
+  /*position: absolute;*/
+  margin: 0 auto;
+  height: 50%;
+  max-width: 84%;
+  text-align: center;
+
+}
+
+
+/*input#submit_button	{font-size: 24px;
+			color: #ffffff;
+			background-color: #ff69c4;
+			border-radius: 10px;
+			font-family: 'azuki';
+}*/
+
+.tagselect{
+	border-radius: 7px;
+	font-family: 'azuki';
+	border: 1px solid #ccc;
+
+}
+
+input#upload{
+    color: #ffffff;
+    background-color: #ff7f50;
+    border-radius: 7px;
+	font-family: 'azuki';
+	border: 1px solid #ccc;
+}
+input#move{
+	color: #ffffff;
+    background-color: #ff7f50;
+    border-radius: 7px;
+	font-family: 'azuki';
+	border: 1px solid #ccc;
+
+}
+
+#dropAria{
+    width:817px;
+    height:234px;
+    border:1px dashed black;
+    margin: 25px auto;
+}
+
+#fileView{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.view-contaier{
+    width:230px;
+    height:150px;
+    border: 1px solid #555555;
+    /*overflow: auto;*/
+}
+.view-contaier div{
+    /*width: 100px;
+    margin: 0 auto;*/
+}
+.view-contaier span{
+    font-size:25px;
+    margin: 0 auto;
+}
+.view-contaier div img{
+    width:100px;
+    height:auto;
+    margin-top:20px; 
+}
+.view-contaier div video{
+    width:120px;
+    height:auto;
+    margin: 0 auto;
+}
+.view-contaier div span{
+    width:100px;
+    height:auto;
+    margin: 0 auto;
+}
+/*チェックの柄*/
+.mvesize{
+    border-image: url("../colors/orange.png") 10;
+    border-style:solid;
+    border-width:15px; 
+}
+/*動画の選択CSS*/
+video.mvesize.clicked{
+  border-image: url(../colors/blue.png) 10;
+  border-style:solid;
+  border-width:15px; 
+}
+
+
+
+
+@font-face{
+	font-family: 'azuki';
+	src: url(./fonts/azuki.ttf);
+}

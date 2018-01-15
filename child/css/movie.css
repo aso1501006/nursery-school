@@ -1,0 +1,5 @@
+﻿.mvesize{
+    border-image: url("../colors/orange.png") 10;
+    border-style:solid;
+    border-width:15px; 
+}

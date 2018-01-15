@@ -1,0 +1,40 @@
+.tagcenter{
+    text-align:center;
+    width:700px;
+    margin:0 auto;
+}
+.tagmovie{
+    margin-top:30px;
+    height:80px;
+    width:300px;
+    font-weight: bold;
+    font-family:'azuki';
+    font-size: 200%;
+    border:1px none;
+    border-radius: 5px;
+    background-image: url(../colors/pink.png);
+}
+.tagphoto{
+    margin-top:30px;
+    height:80px;
+    width:300px;
+    font-weight: bold;
+    font-family:'azuki';
+    font-size:200%;
+    border:1px none;
+    border-radius: 5px;
+    background-image: url(../colors/grayblue.png)
+
+}
+
+
+/*Album.phpのCSS*/
+.tagregist{
+    width:200px;
+    height:50px;
+    font-weight: bold;
+    font-family: 'azuki';
+    font-size:150%;
+    border:1px none;
+    background-image: url(../colors/aqua.png);
+}
